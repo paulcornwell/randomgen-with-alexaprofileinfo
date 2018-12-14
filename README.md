@@ -7,6 +7,6 @@ REQUIRES:
 Node.js 8.10
 
 TO DEPLOY:
-(assumes you have AWS Profile set up, as well as an Alexa Skill that will use this Lambda as the backend.)
+(assumes you have AWS your aws profile set up on your local, as well as an Alexa Skill that will use this Lambda as the backend.)
 - npm install
 - serverless deploy 
