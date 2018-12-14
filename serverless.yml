@@ -1,0 +1,11 @@
+service: random-number
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  generateRandom:
+    handler: handler.randomGenerator
+    events:
+      - alexaSkill
