@@ -6,7 +6,7 @@ const request = require('request');
 module.exports.randomGenerator = (event, context, callback) => {  
   
   //create a random number between 0-100
-  let rand = Math.floor(Math.random() * 100);   
+  let rand = Math.floor(Math.random() * 101);   
 
   let apiAccessToken = event.context.System.apiAccessToken;
   let apiEndpoint = event.context.System.apiEndpoint;  
