@@ -50,7 +50,7 @@ module.exports.randomGenerator = (event, context, callback) => {
             permissions: [
               "alexa::profile:email:read"
             ],
-            content: "Thank you.  In order to use this skill we will need access to your email address. Please go to the home screen in your Alexa app and grant this permission."
+            content: "In order to use this skill we will need access to your email address. Please go to the home screen in your Alexa app and grant this permission."
           },
           outputSpeech: {
             type: 'PlainText',
@@ -62,4 +62,4 @@ module.exports.randomGenerator = (event, context, callback) => {
       callback(null, response);
     }
   });
-  }
+}
